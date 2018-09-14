@@ -18,7 +18,7 @@ class provider(date):
 	language = models.TextField()
 	currency = models.TextField()
 	created_at = models.DateTimeField(auto_now=True)
-
+	service_area = ListField(PolygonField())
 	
 class area(date):
 	geom = PointField()
