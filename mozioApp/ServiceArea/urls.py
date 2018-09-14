@@ -3,5 +3,5 @@ from ServiceArea import views
 
 urlpatterns = [
 
-	url(r'^provider$', views.Provider.as_view()),
+	url(r'^provider$', views.Services_Providers.as_view()),
 	]
